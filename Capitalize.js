@@ -28,3 +28,8 @@ function capitalize2(str){
     console.log(new1);
     return new1;
 }
+
+function capitalize3(str){
+    console.log(str.split(' ').map(word => word[0].toUpperCase()+word.slice(1)).join(' '));
+    return str.split(' ').map(word => word[0].toUpperCase()+word.slice(1)).join(' ');
+}
