@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="Palindrome.js"></script>
+    <script src="anagram.js"></script>
 </head>
 <body>
-    <label for="sentence">Enter a sentence</label>
-    <input type="text" name="sentence" id="s1"/>
-    <button onclick="isPalindrome(document.getElementById('s1').value)">Reverse</button>
+    <label for="sentence1">Word 1</label>
+    <input type="text" name="sentence1" id="s1"/>
+    <label for="sentence2">Word 2</label>
+    <input type="text" name="sentence2" id="s2"/>
+    <button onclick="isAnagram2(document.getElementById('s1').value,document.getElementById('s2').value)">Check Anagram</button>
 </body>
 </html>
